@@ -157,6 +157,7 @@
     <ClInclude Include="src\headers\Lights.h" />
     <ClInclude Include="src\headers\Logic.h" />
     <ClInclude Include="src\headers\Mqtt.h" />
+    <ClInclude Include="src\Settings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

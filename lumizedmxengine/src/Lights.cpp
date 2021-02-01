@@ -2,5 +2,7 @@
 
 void RenderLights()
 {
-	std::cout << "Rendering light frame." << std::endl;
+	
+	if(loopverbose)
+		std::cout << "Rendering light frame." << std::endl;
 }

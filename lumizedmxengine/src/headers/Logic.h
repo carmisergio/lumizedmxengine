@@ -1,4 +1,6 @@
 #pragma once
 
 // Functions
-void GenerateStatekeepers(int n);
+void GenerateStatekeepers();
+void LimitFps(int fps);
+void PerformCalculations();
