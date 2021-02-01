@@ -147,7 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Lights.cpp" />
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Mqtt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Includes.h" />
+    <ClInclude Include="src\Lights.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

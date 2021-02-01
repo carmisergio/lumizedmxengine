@@ -1,7 +1,11 @@
-#include <iostream>
+#include "Includes.h"
+#include "Lights.h"
+
 
 int main()
 {
-	std::cout << "This Works!" << std::endl;
-	std::cin.get();
+	for (int i = 0; i < 1000; i++)
+	{
+		RenderLights();
+	}
 }
