@@ -8,9 +8,14 @@
 #include <cstdio>
 #include <chrono>
 #include <thread>
-#include <array>
+#include <string>
+
+
 
 // Local includes
+#include "..\include\json.hpp"
+using json = nlohmann::json;
+
 #include "Lights.h"
 #include "Logic.h"
 #include "Mqtt.h"
@@ -23,3 +28,4 @@ extern double fadeDelta[RENDER_CHANNELS];
 extern int fadeTarget[RENDER_CHANNELS];
 extern bool haLightState[RENDER_CHANNELS];
 extern int haLightBright[RENDER_CHANNELS];
+extern int ints[RENDER_CHANNELS];
