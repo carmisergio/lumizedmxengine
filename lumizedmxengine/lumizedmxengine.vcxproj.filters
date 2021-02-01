@@ -24,12 +24,21 @@
     <ClCompile Include="src\Mqtt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Logic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Includes.h">
+    <ClInclude Include="src\headers\Includes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Lights.h">
+    <ClInclude Include="src\headers\Lights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\Logic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\Mqtt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
